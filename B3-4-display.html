@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3.4-Display</title>
+    <style>
+        #container{
+            display: flex;
+            width: 50%;
+            margin: auto;
+        }
+        #image{
+            height: 300px;
+        }
+        #content #header{
+            color: #e84393;
+            margin-left: 35px;
+        }
+        .li-content1, .li-content2{
+            margin-left: 40px;
+        }
+        p{
+            margin-left: 60px;
+        }
+        .b-content1, .b-content2{
+            color: white;
+            background-color: #e84393;
+        }
+        .b-content1{
+            padding-right: 20px;
+        }
+        hr{
+            width: 400px;
+        }
+        .b-content2{
+            padding-right: 37.75px;
+        }
+        p{
+            margin-top: 34px;
+            background-color: #ffe7f6;
+        }
+        a{
+            transition: color 1s;
+            color: blue;
+            font-weight: bold;
+        }
+        a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="image">
+            <img src="images/pexels-alena-darmel-7322311.jpg" alt="đây là ảnh" width="200">
+        </div>
+        <div id="content">
+            <h2 id="header">Công ty Hoa tươi Nhân Ái</h2>
+            <ul id="ul-content1" style="list-style-type: square;">
+                <b>1.</b>&nbsp;&nbsp;&nbsp;<b class="b-content1">Giới thiệu</b>
+                <li class="li-content1">Thành lập ngày: 25/05/2007</li>
+                <li class="li-content1">Chuyên cung cấp các loại hoa tươi</li>
+                <li class="li-content1">Có trên 20 cửa hàng bán lẻ tại TP.HCM</li>
+                <li class="li-content1">Nhận kết giỏ hoa theo yêu cầu của khách hàng</li>
+            </ul>
+            <hr>
+            <ul id="ul-content2" style="list-style-type: circle;">
+                <b>2.</b>&nbsp;&nbsp;&nbsp;<b class="b-content2">Liên hệ</b>
+                <li class="li-content2">Điện thoại: 84-08-8351056</li>
+                <li class="li-content2">Địa chỉ:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>227 Nguyễn Văn Cử, Quận 5, TP.HCM</i></li>
+            </ul>
+            <p>&copy; Copyright: <a href="#">Trung tâm Tin học - Đại học Khoa học tự nhiên TP.HCM</a></p>
+        </div>
+    </div>
+</body>
+</html>
